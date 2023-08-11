@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+}
+body{
+    overflow: hidden;
+}
+.conteiner{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block: 16px;
+    gap: 16px;
+}
+
+.item{
+    height: 100px;
+    width: 80%;
+    background-color: pink;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 55px 0px 0px 55px;
+    padding-inline: 16px;
+    
+}
+
+.texto{
+    color: #fff;
+    font-size: 54px;
+    align-items: center;
+    padding-left: 30px;
+}
+.forma{
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+    background-color: whitesmoke;
+    cursor: pointer;
+    box-shadow: 0px 0px 4px grey;
+    transition: 1s;
+}
+.pink{
+    background-color: palevioletred;
+}
+
+.circulo{
+    border-radius: 50%;
+}
+.girar{
+    transform: rotate(160deg);
+    transition: 1s;
+}
+.tamanho{
+    width: 15px;
+    height: 15px;
+}
+.brilhar{
+    box-shadow: 1px 1px 20px white;
+}
+
+.sumir{
+    opacity: 0;
+}
+
+.conteiner2{
+    height: 100px;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cor1{
+    background-color: palegoldenrod;
+    transition: all 0.25s ease-in-out;
+}
+.cor2{
+    background-color: whitesmoke;
+    transition: all 0.25s ease-in-out;
+}
+.cor3{
+    background-color: paleturquoise;
+    transition: all 0.25s ease-in-out;
+}
+.cor4{
+    background-color: orange;
+    transition: all 0.25s ease-in-out;
+}
+.cor5{
+    background-color: #fff;
+}
